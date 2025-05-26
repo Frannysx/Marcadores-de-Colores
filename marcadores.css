@@ -43,3 +43,23 @@ h1 {
   background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   box-shadow:0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
+
+.back-button {
+  display: inline-block;
+  margin: 0.5rem auto 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #6b6da5;
+  color: #ffffff;
+}
+
